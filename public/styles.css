@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+}
+.content-block {
+    max-width: 50em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 2em;
+}
+
+#bf-idea {
+  margin: 1em;
+  font-size: 3em;
+}
+
+.fa-github {
+  color:black;
+}
+
+.flex {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+footer {
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  max-width: 50em;
+}
